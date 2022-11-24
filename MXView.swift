@@ -48,7 +48,6 @@ struct MXView: View {
         }
     }
 }
-}
 
 
 
@@ -58,4 +57,4 @@ struct MXView_Previews: PreviewProvider {
         MXView()
     }
 }
-}
+
