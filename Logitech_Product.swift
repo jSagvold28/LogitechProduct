@@ -8,19 +8,19 @@
 import SwiftUI
 
 @main
-struct Logitech_ProductApp: App {
+struct LogitechProducts: App {
     var body: some Scene {
         WindowGroup {
             TabView {
-                ContentView() // HomeView
+                ContentView()
                     .tabItem {
                         Image(systemName: "house")
                         Text("Home")
-                        
-                        MXView()
-                            .tabItem {
-                                Image(systemName: "bag")
-                            }
+                    }
+                MXView()
+                    .tabItem {
+                        Image(systemName: "bag")
+                        Text("Products")
                     }
             }
         }
