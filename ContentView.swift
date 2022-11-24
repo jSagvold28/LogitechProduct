@@ -13,9 +13,11 @@ struct ContentView: View {
             Image("logo")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
+                .padding(.bottom, 45)
             
             
             Text("Mouses, keyboards, office accessories")
+                .font(.subheadline)
         }
     }
     
